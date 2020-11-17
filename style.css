@@ -40,7 +40,7 @@ a:hover {
 
 .button-profile {
   font-size: 14px;
-  background-color: #16a596;
+  background-color: rgba(22,165,150, 0.8);
   color: white;
   padding: 9px 7px;
   border-radius: 5px;
@@ -64,20 +64,23 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
-}
-
-.list-inline i {
-  font-size: 50px;
-  color: #16a596;
-}
-
-.list-inline i:hover {
-  color: #ffd5cd;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgba(22,165,150, 0.8);
+}
+
+.list-inline i:hover {
+  color: #ffd5cd;
 }
 
 .list-inline > li {
